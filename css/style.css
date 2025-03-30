@@ -1,0 +1,368 @@
+body {
+    font-family: "Assistant", serif;
+
+}
+
+
+.navbar .navbar-collapse ul li {
+    padding: 10px 0px 10px 30px;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    color : white;
+    text-transform: uppercase;
+   
+}
+
+.home {
+    background-image: linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url("../image/hero-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home div h1 {
+    font-size: 5rem;
+}
+
+.home div span::after {
+    content:"" ;
+    transition: all 2s;
+    animation: names 5s infinite  ;
+}
+@keyframes names {
+    0% {
+        content: "D|";
+        color: white
+    }
+    3% {
+        content: "De|"; 
+        color: white
+
+    }
+    6% {
+        content: "Dev|"; 
+        color: white
+
+    }
+    9% {
+        content: "Deve|"; 
+        color: white
+
+    }
+    12% {
+        content: "Devel|"; 
+        color: white
+
+    }
+    15% {
+        content: "Develo|"; 
+        color: white
+
+    }
+    18% {
+        content: "Develop|"; 
+        color: white
+
+    }
+    21% {
+        content: "Develope|"; 
+        color: white
+
+    }
+    24% {
+        content: "Developer|"; 
+        color: white
+
+    }
+    27% {
+        content: "Develope|"; 
+        color: white
+    }
+    30% {
+        content: "Develop|"; 
+        color: white
+    }
+
+
+    33% {
+        content: "Develo|";
+        color: white
+    }
+    36% {
+        content: "Devel|"; 
+        color: white
+
+
+    }
+    39% {
+        content: "Deve|"; 
+        color: white
+
+
+    }
+    42% {
+        content: "Dev|"; 
+        color: white
+
+
+    }
+    45% {
+        content: "De|"; 
+        color: white
+
+
+    }
+    48% {
+        content: "D|"; 
+        color: white
+ 
+
+    }
+    51% {
+        content: "|"; 
+        color: white
+
+
+    }
+    54% {
+        content: "D|"; 
+        color: white
+
+
+    }
+    57% {
+        content: "De|"; 
+        color: white
+     
+
+    }
+    60% {
+        content: "Des|"; 
+        color: white
+
+
+    }
+    63% {
+        content: "Desi|"; 
+        color: white
+
+
+    }
+    66% {
+        content: "Desig|"; 
+        color: white
+
+    }
+    69% {
+        content: "Design|"; 
+        color: white;
+
+    }
+    72% {
+        content: "Designe|";  
+        color: white
+
+    }
+    75% {
+        content: "Designer|"; 
+        color: white
+
+    }
+    78% {
+        content: "Designe|"; 
+        color: white
+
+    }
+    81% {
+        content: "Design|"; 
+        color: white ;
+
+    }
+    84% {
+        content: "Desig|"; 
+        color: white
+
+    }
+    87% {
+        content: "Desi|"; 
+        color: white 
+
+    }
+    90% {
+        content: "Des|"; 
+        color: white
+
+    }
+    93% {
+        content: "De|"; 
+        color: white
+
+    }
+    96% {
+        content: "D|"; 
+        color: white
+
+    }
+    100% {
+        content: "|"; 
+        color: white
+
+    }
+
+}
+section.about {
+   background-color: rgba(78, 78, 78, 0.096); 
+
+}
+section.about header h2 {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+} 
+
+section .container .row .liner {
+ background-color: rgba(30, 30, 30, 0.068);
+}
+
+section .container .row .liner div.icon  {
+    width: 90px;
+    height: 90px;
+    border: 8px solid ;
+    border-color: rgb(0, 120, 255);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+}
+section .container .row .liner div.icon i {
+    font-size: 30px;
+    color: black;
+}
+section .container .row .liner div.icon i{
+    transition: color 2s;
+    -webkit-transition: color 2s;
+    -moz-transition: color 2s;
+    -ms-transition: color 2s;
+    -o-transition: color 2s;
+}
+section .container .row .liner:hover div.icon i {
+    color: white;
+}
+section .container .row .liner:hover div.icon {
+    background-color: rgb(0, 120, 255);
+    border: none;
+}
+
+/* ?section notification */
+
+section.notification {
+    background-image: linear-gradient(rgba(0, 119, 255, 0.7) , rgba(0, 119, 255, 0.7)), url("../image/post-3.jpg");
+    background-attachment: fixed;
+    padding-block: 130px ;
+}
+section.notification .container .row div.icon {
+    width: 80px;
+    height: 80px;
+    border: 10px solid white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+
+}
+/* ?section work */
+section.work header h2 {
+    font-size: 50px !important;
+}
+section.work .row div.icon {
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgb(11, 131, 211);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+section.work .row .work-content {
+    background-color: rgba(255, 255, 255);
+    box-shadow: 1px 1px 3px gray;
+}
+section.work .row .work-content img {
+    transition: transform 2s;
+    -webkit-transition: transform 2s;
+    -moz-transition: transform 2s;
+    -ms-transition: transform 2s;
+    -o-transition: transform 2s;
+}
+section.work .row .work-content img:hover {
+    transform: scale(1.4);
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+}
+
+/*? section carousel */
+section.Carousel-section {
+    background-image: linear-gradient(rgba(0, 119, 255,0.6) , rgba(0, 119, 255, 0.6)) , url("../image/overlay-bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+
+}
+section.Carousel-section div.carousel div.carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* ?section blog */
+section.blog header h2 {
+    font-size: 48px !important;
+    font-weight: 700;
+
+}
+section.blog .container .row .box-content  {
+    background-color: rgba(255, 255, 255);
+    box-shadow: 1px 1px 3px gray;
+
+}
+section.blog .container .row .div-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+section.blog .container .row .box-content a {
+    transition: color 2s;
+    -webkit-transition: color 2s;
+    -moz-transition: color 2s;
+    -ms-transition: color 2s;
+    -o-transition: color 2s;
+}
+section.blog .container .row .box-content a:hover {
+    color: blue !important;
+}
+section.blog .container .row .box-content h6 {
+    /* width: fit-content; */
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
